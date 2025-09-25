@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cce6ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1{
+  filter: drop-shadow(0 0 8px #4da6ff);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+h1:hover {
+  filter: drop-shadow(0 0 15px #4da6ff);
+  transform: scale(1.05);
+}
+
+header {
+  background-color: #f0f7ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+nav {
+    border-top: 5px solid #e6f2ff;
+    border-bottom: 5px solid #e6f2ff;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #4da6ff;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f5ffff;
+}
+
+main img {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.radioheard{
+  border: 3px solid #b3daff;
+  border-radius: 12px;
+  background-color: #e6f3ff;
+}
+
+.adrianne{
+  border: 3px solid #b3daff;
+  border-radius: 12px;
+  background-color: #e6f3ff;
+}
+
+.alex{
+  border: 3px solid #b3daff;
+  border-radius: 12px;
+  background-color: #e6f3ff;
+}
+
+footer {
+  background-color: #f0f7ff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+}
+
+.td{
+  background-color: #e6f3ff;
+}
